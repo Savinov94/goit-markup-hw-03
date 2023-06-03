@@ -1,0 +1,260 @@
+:root {
+  --title-color: #2e2f42;
+  --main-text-color: #434455;
+  --logo-color: #4d5ae5;
+  --hover-color: #404bbf;
+  --hero-color: #ffffff;
+  --footer-text-color: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-text-color);
+  background-color: var(--hero-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+/* header */
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+.header-logo:hover {
+  color: var(--hover-color);
+}
+
+.header-logo:focus {
+  color: var(--hover-color);
+}
+
+.header-logo-span {
+  color: var(--title-color);
+}
+
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.header-menu-link:hover {
+  color: var(--hover-color);
+}
+
+.header-menu-link:focus {
+  color: var(--hover-color);
+}
+
+.header-contact {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-address {
+  font-style: normal;
+}
+
+.header-adress-mail {
+  color: var(--main-text-color);
+}
+
+.header-adress-mail:hover {
+  color: var(--hover-color);
+}
+
+.header-adress-mail:focus {
+  color: var(--hover-color);
+}
+
+/* hero image */
+.hero {
+  background-color: var(--title-color);
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--hero-color);
+}
+.hero-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--hero-color);
+  background-color: var(--logo-color);
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: var(--hover-color);
+}
+
+.hero-btn:focus {
+  background-color: var(--hover-color);
+}
+
+/* section 2 */
+
+.professionalism-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.professionalism-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+/* section 3 */
+
+.action-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+
+/* section 4 */
+
+.teem {
+  background-color: var(--footer-text-color);
+}
+
+.teem-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-color);
+}
+
+.teem-list {
+}
+
+.teem-list-item {
+  background-color: var(--hero-color);
+}
+
+.teem-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.teem-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--title-color);
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color);
+}
+
+.footer-logo-span {
+  color: var(--footer-text-color);
+}
+
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-text-color);
+}
+
+/* portfolio */
+
+/* filter */
+
+.filter-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--logo-color);
+  list-style: none;
+}
+
+.filter-list-all {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--logo-color);
+  background-color: var(--footer-text-color);
+  cursor: pointer;
+}
+
+.filter-list-all:hover {
+  color: var(--hero-color);
+  background-color: var(--hover-color);
+}
+
+.filter-list-all:focus {
+  color: var(--hero-color);
+  background-color: var(--hover-color);
+}
+
+.filter-link {
+  text-decoration: none;
+}
+
+.filter-link-list {
+}
+
+.filter-link-item {
+  text-decoration: none;
+}
+
+.filter-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.filter-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
