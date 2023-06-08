@@ -97,7 +97,8 @@ ul {
   display: flex;
   align-items: center;
   margin-right: 76px;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-logo:hover {
   color: var(--hover-color);
@@ -416,7 +417,6 @@ ul {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
-  margin-bottom: 8px;
 }
 
 .filter-link-list {
@@ -441,6 +441,7 @@ ul {
   color: var(--title-color);
   padding-top: 32px;
   padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .filter-text {
