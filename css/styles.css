@@ -99,6 +99,7 @@ ul {
   margin-right: 76px;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 .header-logo:hover {
   color: var(--hover-color);
