@@ -83,6 +83,7 @@ ul {
   display: flex;
   align-items: center;
   margin-right: 76px;
+  padding: 24px 0;
 }
 .header-logo:hover {
   color: var(--hover-color);
@@ -182,6 +183,7 @@ ul {
   border-radius: 4px;
   min-width: 169px;
   border: none;
+  height: 56px;
 }
 
 .hero-btn:hover {
