@@ -13,6 +13,23 @@ body {
   background-color: var(--hero-color);
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 .link {
   text-decoration: none;
 }
@@ -23,7 +40,34 @@ body {
 
 /* header */
 
+.container {
+  width: 100%;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
 .header-logo {
+  max-width: 496px;
+  height: 120px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -31,6 +75,8 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
+  display: flex;
+  align-items: center;
 }
 .header-logo:hover {
   color: var(--hover-color);
@@ -42,6 +88,12 @@ body {
 
 .header-logo-span {
   color: var(--title-color);
+}
+
+.header-menu {
+  display: flex;
+  margin-left: 76px;
+  gap: 40px;
 }
 
 .header-menu-link {
@@ -63,9 +115,11 @@ body {
 .header-contact {
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: flex;
 }
 .header-address {
   font-style: normal;
+  margin-left: auto;
 }
 
 .header-adress-mail {
@@ -85,14 +139,25 @@ body {
   background-color: var(--title-color);
 }
 
+.hero-container {
+  padding-top: 188px;
+  padding-bottom: 292px;
+}
+
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--hero-color);
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  max-width: 496px;
 }
 .hero-btn {
+  padding: 14px 40px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -101,6 +166,11 @@ body {
   color: var(--hero-color);
   background-color: var(--logo-color);
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 .hero-btn:hover {
@@ -113,12 +183,24 @@ body {
 
 /* section 2 */
 
+.professionalism-list {
+  display: flex;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  gap: 24px;
+}
+
+.professionalism-item {
+  width: calc((100%-3 * 24px) / 4);
+}
+
 .professionalism-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  margin-bottom: 8px;
 }
 
 .professionalism-item-text {
@@ -130,18 +212,39 @@ body {
 
 /* section 3 */
 
+.action-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .action-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
   color: var(--title-color);
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+
+.teem-list {
+  display: flex;
+  gap: 24px;
+}
+
+.teem-list-item {
+  width: calc((100%-24px * 2) / 3);
 }
 
 /* section 4 */
 
 .teem {
   background-color: var(--footer-text-color);
+}
+
+.container-teem {
+  width: 1440px;
+  height: 732px;
 }
 
 .teem-title {
@@ -151,6 +254,9 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--title-color);
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 
 .teem-list {
@@ -166,6 +272,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  text-align: center;
+  margin-top: 32px;
 }
 
 .teem-text {
@@ -173,11 +281,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  text-align: center;
 }
 
 /* footer */
 .footer {
   background-color: var(--title-color);
+}
+
+.container-footer {
+  width: 1440px;
+  height: 312px;
 }
 
 .footer-logo {
@@ -198,6 +312,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footer-text-color);
+  max-width: 264px;
+  padding-top: 140px;
 }
 
 /* portfolio */
@@ -210,6 +326,10 @@ body {
   line-height: 1.5;
   color: var(--logo-color);
   list-style: none;
+  display: flex;
+  gap: 24px;
+  padding-left: 427px;
+  padding-right: 427px;
 }
 
 .filter-list-all {
@@ -235,6 +355,9 @@ body {
 
 .filter-link {
   text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .filter-link-list {
@@ -250,6 +373,8 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 
 .filter-text {
