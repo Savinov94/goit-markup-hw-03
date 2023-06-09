@@ -85,8 +85,6 @@ ul {
 }
 
 .header-logo {
-  max-width: 496px;
-  height: 120px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -112,10 +110,8 @@ ul {
 
 .header-menu {
   display: flex;
-  margin-left: 76px;
+
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-menu-link {
@@ -125,6 +121,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--title-color);
   padding: 24px 0;
+  display: block;
 }
 
 .header-menu-link:hover {
@@ -165,8 +162,6 @@ ul {
 }
 
 .hero-container {
-  padding-top: 188px;
-  padding-bottom: 292px;
 }
 
 .hero-title {
@@ -217,13 +212,11 @@ ul {
 
 .professionalism-list {
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
   gap: 24px;
 }
 
 .professionalism-item {
-  width: calc((100%-3 * 24px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .professionalism-subtitle {
@@ -249,8 +242,6 @@ ul {
 }
 
 .action-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .action-title {
@@ -280,8 +271,6 @@ ul {
 }
 
 .container-teem {
-  width: 1440px;
-  height: 732px;
 }
 
 .teem-title {
@@ -292,8 +281,7 @@ ul {
   text-transform: capitalize;
   color: var(--title-color);
   margin: 0 auto;
-  padding-top: 120px;
-  padding-bottom: 72px;
+
   margin-bottom: 72px;
 }
 
@@ -330,12 +318,10 @@ ul {
 /* footer */
 .footer {
   background-color: var(--title-color);
-  padding: 100px 0;
+  padding: 100px;
 }
 
 .container-footer {
-  width: 1440px;
-  height: 312px;
 }
 
 .footer-logo {
@@ -359,7 +345,6 @@ ul {
   letter-spacing: 0.02em;
   color: var(--footer-text-color);
   max-width: 264px;
-  padding-top: 140px;
 }
 
 /* portfolio */
@@ -379,8 +364,6 @@ ul {
   list-style: none;
   display: flex;
   gap: 24px;
-  padding-left: 427px;
-  padding-right: 427px;
   justify-content: center;
   margin-bottom: 72px;
 }
@@ -430,7 +413,6 @@ ul {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .filter-subtitle {
@@ -439,8 +421,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
-  padding-top: 32px;
-  padding-bottom: 8px;
   margin-bottom: 8px;
 }
 
